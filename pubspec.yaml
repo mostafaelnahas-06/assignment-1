@@ -1,6 +1,5 @@
-name: kabar_app
-description: A new Flutter project
-publish_to: 'none'
+name: dummyjson_auth
+description: DummyJSON Authentication Demo
 version: 1.0.0+1
 
 environment:
@@ -9,20 +8,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.2.2
-  cupertino_icons: ^1.0.6
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
-
-  # Add this assets section
-  assets:
-    - assets/onboarding_1.png
-    - assets/onboarding_2.png
-    - assets/onboarding_3.png
-    # Add more image paths as needed
